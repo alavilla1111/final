@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  text-shadow: 2px 2px 4px #000000; /* Additional CSS property */
+}
+
+.introduction {
+  padding: 1em;
+  background-color: #ADD8E6; /* Unique color scheme */
+}
+
+
+.journey ul li {
+  color: #333;
+  margin-left: 1em;
+}
+
+main > section {
+  margin: 2em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Additional CSS property */
+}
+
+.dragon-encounter::before {
+  content: url('dragon.jpg');
+  display: block;
+  margin: 0 auto 1em;
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.journey {
+  background-color: #FAFAD2; /* Unique color scheme */
+}
+.dragon-encounter {
+  background-color: #FFE4E1; /* Unique color scheme */
+}
+.conclusion {
+  background-color: #F0E68C; /* Unique color scheme */
+}
